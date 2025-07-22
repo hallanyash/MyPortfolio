@@ -35,7 +35,6 @@ const Contactus = () => {
       <div className="w-full relative">
         <div className="min-h-screen bg-black text-white flex items-center justify-center">
           <div className="grid md:grid-cols-2 gap-8 bg-[#121212] rounded-2xl p-4 max-w-6xl w-full">
-            {/* Left Side */}
             <div>
               <h2 className="text-3xl font-bold mb-4">Let's Work Together</h2>
               <p className="text-gray-300 mb-8">
@@ -43,8 +42,6 @@ const Contactus = () => {
                 projects. Let's discuss how we can create something amazing
                 together!
               </p>
-
-              {/* Contact Items */}
               <div className="space-y-4 w-full">
                 <ContactItem
                   icon={<FaEnvelope />}
@@ -68,8 +65,6 @@ const Contactus = () => {
                 />
               </div>
             </div>
-
-            {/* Right Side - Contact Form */}
             <div>
               <h2 className="text-3xl font-bold mb-6">Send Message</h2>
               <form className="space-y-5" onSubmit={sendEmail} ref={form}>

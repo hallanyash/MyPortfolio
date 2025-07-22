@@ -1,12 +1,10 @@
 import img from "../About/edited.jpg";
-
 const About = () => {
   return (
     <section
       id="about"
       className="bg-black text-white px-4 sm:px-6 py-12 min-h-screen flex flex-col justify-center"
     >
-      {/* Title */}
       <div className="text-center mb-10 px-4 py-5">
         <h1 className="font-bold text-3xl sm:text-4xl md:text-5xl mb-4">
           About Me
@@ -16,10 +14,7 @@ const About = () => {
           innovative design and clean code.
         </h3>
       </div>
-
-      {/* Content Section */}
       <div className="flex flex-col-reverse md:flex-row items-center gap-10 max-w-6xl mx-auto px-4 py-10">
-        {/* Text */}
         <div className="w-full space-y-6 text-center md:text-left">
           <p className="text-base sm:text-lg leading-relaxed text-white">
             Hi, I’m <strong className="text-purple-300">Yash Hallan</strong> — a
@@ -40,8 +35,6 @@ const About = () => {
             📄 Download CV
           </a>
         </div>
-
-        {/* Image */}
         <div className="w-[300px] h-[300px] sm:w-[400px] sm:h-[400px] md:w-[450px] md:h-[450px] rounded-full bg-gradient-to-br from-[#667eea] via-[#764ba2] to-[#f093fb] p-[4px] shadow-lg">
           <div className="bg-white w-full h-full rounded-full overflow-hidden">
             <img

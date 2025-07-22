@@ -3,7 +3,6 @@ import Home from "./components/Home/Home";
 import About from "./components/About/About";
 import Skill from "./components/skill/Skill";
 import Project from "./components/projects/Project";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Contactus from "./components/contact/Contactus";
 const App = () => {
   return (
