@@ -7,14 +7,12 @@ import Contactus from "./components/contact/Contactus";
 const App = () => {
   return (
     <>
-      <Router>
-        <Navbar />
-        <Home />
-        <About />
-        <Skill />
-        <Project />
-        <Contactus />
-      </Router>
+      <Navbar />
+      <Home />
+      <About />
+      <Skill />
+      <Project />
+      <Contactus />
     </>
   );
 };
