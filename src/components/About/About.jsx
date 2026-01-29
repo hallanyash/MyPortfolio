@@ -28,7 +28,7 @@ const About = () => {
             into interactive, real-world web experiences.
           </p>
           <a
-            href="/YashHallanResume.pdf"
+            href="/YashHallanResume-1.pdf"
             download
             className="inline-block px-5 py-3 bg-gradient-to-r from-purple-500 to-pink-500 text-white font-semibold rounded-full shadow-md hover:scale-105 transition-transform"
           >

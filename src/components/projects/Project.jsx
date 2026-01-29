@@ -7,6 +7,16 @@ const Project = () => {
 
           {[
             {
+              name: "LMS (Learning Management System)",
+              link: "https://learnermanagementadmin.netlify.app/",
+              role: "Full Stack Developer",
+              tech: "React.js, Node.js, Express.js, MongoDB, REST API, Tailwind CSS ",
+              points: [
+                "Used protected routes on both frontend and backend to prevent unauthorized access to the admin dashboard",
+                "Designed RESTful APIs for CRUD operations (Create, Read, Update, Delete)",
+              ],
+            },
+            {
               name: "Steam Clone",
               link: "https://steamgameclone.netlify.app/",
               role: "Front-end Developer",
@@ -37,16 +47,16 @@ const Project = () => {
                 "Integrated dynamic music app using backend APIs from JioSaavn api.",
               ],
             },
-            {
-              name: "Recipe App",
-              link: "https://cookingrecipeapplication.netlify.app/",
-              role: "Front-end Developer",
-              tech: "HTML, CSS, Bootstrap, JavaScript, API, React.js",
-              points: [
-                "Integrated dynamic recipes data using APIs from TheMealDB.",
-                "Implemented a search functionality that allows users to search a recipe.",
-              ],
-            },
+            // {
+            //   name: "Recipe App",
+            //   link: "https://cookingrecipeapplication.netlify.app/",
+            //   role: "Front-end Developer",
+            //   tech: "HTML, CSS, Bootstrap, JavaScript, API, React.js",
+            //   points: [
+            //     "Integrated dynamic recipes data using APIs from TheMealDB.",
+            //     "Implemented a search functionality that allows users to search a recipe.",
+            //   ],
+            // },
           ].map((project, index) => (
             <div
               key={index}

@@ -49,7 +49,7 @@ const Skill = () => {
                     >
                       ✨ {lib}
                     </span>
-                  )
+                  ),
                 )}
               </div>
             </div>
@@ -74,7 +74,14 @@ const Skill = () => {
                 </h2>
               </div>
               <div className="flex flex-wrap gap-4">
-                {["Rest API", "Git", "GitHub"].map((tool) => (
+                {[
+                  "Rest API",
+                  "Git",
+                  "GitHub",
+                  "Node.js",
+                  "Express.js",
+                  "MongoDB",
+                ].map((tool) => (
                   <span
                     key={tool}
                     className="bg-[#2e2e2e] px-4 py-2 rounded-full text-sm"
